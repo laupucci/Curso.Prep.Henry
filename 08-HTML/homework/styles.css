@@ -1,0 +1,38 @@
+h1 {color: lime;
+	margin: 10px}
+h3 {margin:10px;
+	margin-top: 20px }
+h4 {margin: 10px;
+	margin-top: 20px }
+
+body {background-image: url('images.jpg');
+	background-size: cover;
+	content: center}
+div {display: flex;
+ 	-webkit-align-items;
+ 	align-items: center;
+  	justify-content: center;
+	text-align: center;
+	margin-left: auto;
+ 	margin-right: auto;
+	}
+
+		img { width: 400px;
+			}
+		#thirdDiv { 
+			background-color: plum;
+			width: 500px;
+			height: 600px;
+			padding: 50px;
+			display: flex;
+ 			align-items: center;
+  			justify-content: center;
+			border: 10px orange;
+					
+		 }
+		 #spanId {
+		 	font-size: 18px;
+		 	margin: 50px;
+		 }
+@media screen and (max-width: 400px) {
+	aside { display: none; }

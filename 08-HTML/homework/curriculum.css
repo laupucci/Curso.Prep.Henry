@@ -1,0 +1,95 @@
+* {box-sizing: border-box;
+	}
+
+h1 {display: flex;
+	align-items: center;
+	justify-content: center;
+		}
+
+
+img {width: 250px;
+	position: relative;
+	bottom: 2200px;
+	left: 900px;
+	border: 2px solid blue
+	}
+
+body {margin: 20px;
+	background: #fff;
+	font-family: 'Fira Sans', sans serif;
+	font-size: 17px
+	}
+
+	.descripcion {background: lightblue;
+			 	max-width: 100%;
+				padding: 60px;
+				margin: 20px auto;
+  				border-width: 10px;
+  				-webkit-box-sizing: border-box;
+     			-moz-box-sizing: border-box;
+          		box-sizing: border-box;
+				width: 100%;
+				border: 2px solid blue;
+				border-radius: 10px}
+	.experienciaLaboral {display: flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+				justify-content: space-between;
+				padding: 60px;
+				margin: 20px auto;
+  				border-width: 10px;
+				background-color: lightgrey;
+				-webkit-box-sizing: border-box;
+     			-moz-box-sizing: border-box;
+          		box-sizing: border-box;
+          		border: 2px solid grey;
+          		border-radius: 10px}
+	.educacion {padding: 60px;
+				margin: 20px auto;
+  				border-width: 10px;
+  				-webkit-box-sizing: border-box;
+     			-moz-box-sizing: border-box;
+          		box-sizing: border-box;
+          		border: 2px solid blue}
+	.skillsHobbies {padding: 60px;
+				margin: 20px auto;
+  				border-width: 10px;
+  				-webkit-box-sizing: border-box;
+     			-moz-box-sizing: border-box;
+     			padding: 1em;
+  				-moz-column-count: 2;
+  				-moz-column-gap: 1em;
+  				-webkit-column-count: 2;
+  				-webkit-column-gap: 1em;
+  				column-count: 2;
+  				column-gap: 1em;
+          		box-sizing: border-box;
+          		border: 2px solid grey;
+         	 	text-align: justify;
+         	 	display: flex;
+				align-items: center;
+				justify-content: center;}
+h4 {display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: yellow;
+	border: 12px solid yellow
+	}
+
+	.henry {-webkit-box-sizing: border-box;
+     			-moz-box-sizing: border-box;
+       			box-sizing: border-box;
+ 				padding: 1em;
+  				-moz-column-count: 3;
+	  			-moz-column-gap: 1em;
+  				-webkit-column-count: 3;
+  				-webkit-column-gap: 1em;
+  				column-count: 3;
+  				column-gap: 1em;
+  				box-sizing: border-box;
+       	  		border: 2px solid yellow;
+       	  		border-radius: 10px;
+     			display: flex;
+				align-items: center;
+				}
+
